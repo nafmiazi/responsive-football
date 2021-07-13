@@ -128,12 +128,12 @@ footer{
     background: #FFFFFF;
 }
 
-footer .logo{
+.footer-logo{
     padding-top: 158px; 
     margin-bottom: 20px;
     text-align: center;
 }
-footer .logo img{
+.footer-logo img{
     width: 483.87px;
     height: 110px;
 }
@@ -158,8 +158,7 @@ footer .logo img{
     transition: 0.5s;
 }
 .fab{
-    margin-top: 7px;
-    margin-left: 2px;
+    margin-top: 8px;
     color: #969BAB;
 }
 
@@ -170,7 +169,6 @@ footer .logo img{
 
 .footer-icons a:hover .fab{
     color: red;
-    margin-left: 0;
 }
 
 .footer-section p{
