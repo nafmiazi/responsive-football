@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: black;
+    margin: 0;
 }
 
 .full-container{
@@ -122,6 +123,62 @@ main{
 }
 /* Players section ends here */
 
+/* Latest news starts here */
+.latest-newses{
+    margin-top: 70px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section-title{
+    font-size: 50px;
+    color: white;
+}
+
+.latest-news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.news{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.news-image{
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+    transition: transform 2s;
+}
+
+.news:hover .news-image{
+    transform: scale(1.5);
+}
+
+.news h1{
+    font-size: 30px;
+    width: 100%;
+    color: yellow;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 348px;
+    padding: 15px;
+    text-align: center;
+}
+/* Latest news ends here */
+
+/* Main section ends here */
+
 /* Footer section starts here */
 footer{
     width: 1440px;
@@ -155,16 +212,17 @@ footer{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    transition: 0.5s;
-}
-.fab{
-    margin-top: 8px;
-    color: #969BAB;
+    transition: transform 0.5s;
 }
 
 .footer-icons a:hover{
     transform: scale(1.2);
     background-color: navy;
+}
+
+.fab{
+    margin-top: 9px;
+    color: #969BAB;
 }
 
 .footer-icons a:hover .fab{
@@ -178,4 +236,3 @@ footer{
     padding-bottom: 63px;
 }
 /* Footer section ends here */
-/* Main section ends here */
