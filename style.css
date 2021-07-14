@@ -282,3 +282,153 @@ footer{
     padding-bottom: 63px;
 }
 /* Footer section ends here */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .full-container{
+        width: 100%;
+    }
+
+/* Header section starts here */
+.banner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    background: #2D25A0;
+    width: 360px;
+    height: 695px;
+    margin: 0;
+}
+
+.banner-info{
+    margin-left: -65px;
+    margin-top: 112px;
+}
+
+.banner-info h1{
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.banner-image{
+    margin-right: 16px;
+    margin-left: 15px;
+    margin-bottom: 61.83px;
+}
+
+.banner-image img{
+    width: 329px;
+    height: 259.17px;
+}
+/* Header section ends here */
+
+/* Main section starts here */
+main{
+    width: 360px;
+    background: #FFFFFF;
+}
+
+/* Players section starts here */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 0px;
+    margin: 0 auto;
+    padding-top: 47px;
+    }
+
+.player{
+        margin: 0 auto;
+    }
+/* Players section ends here */
+
+/* Latest news starts here */
+    .latest-newses{
+        margin-top: 70px;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+
+    .latest-news{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 24px;
+    }
+
+    .news{
+        width: 300px;
+        height: 400px;
+    }
+
+    .news h1{
+        font-size: 20px;
+        position: absolute;
+        top: 320px;
+        padding: 0px;
+    }
+    /* Latest news ends here */
+
+    /* Special Feature starts here */
+    .special-feature{
+        width: 100%;
+        height: 200px;
+    }
+
+    .special-feature h1{
+        font-size: 20px;
+    }
+
+    .special-feature p{
+        font-size: 10px;
+        color: white;
+    }
+
+    .special-feature a{
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .special-feature a:hover{
+        padding: 10px 13px;
+    }
+
+    .feature-title{
+        font-size: 20px;
+    }
+    /* Special Feature ends here */
+/* Main section ends here */
+
+/* Footer section starts here */
+footer{
+    width: 360px;
+}
+
+.footer-logo{
+    padding-top: 54.57px;
+    margin-left: -20px; 
+    margin-bottom: 50.45px;
+    text-align: center;
+}
+.footer-logo img{
+    width: 150px;
+    height: 45px;
+}
+
+.footer-icons{
+    margin-left: 20px;
+}
+/* Footer section ends here */
+}
