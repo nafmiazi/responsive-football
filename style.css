@@ -235,6 +235,7 @@ footer{
     padding-top: 140px; 
     margin-bottom: 20px;
     text-align: center;
+    margin-left: -75px;
 }
 .footer-logo img{
     width: 483.87px;
@@ -283,12 +284,156 @@ footer{
 }
 /* Footer section ends here */
 
+/* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+
+.full-container{
+    width: 100%;
+}
+
+/* Header section starts here */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2D25A0;
+    width: 768px;
+}
+
+.banner-info{
+    margin-left: -300px;
+    margin-top: 112px;
+}
+
+.banner-info h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.banner-image{
+    margin-right: -300px;
+    margin-left: 15px;
+    margin-bottom: 61.83px;
+}
+
+.banner-image img{
+    width: 400px;
+    height: 300px;
+}
+/* Header section ends here */
+
+/* Main section starts here */
+main{
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/* Players section starts here */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 35px;
+    grid-row-gap: 24px;
+    grid-column-gap: 10px;
+    margin: 0 auto;
+    padding-top: 35px;
+    }
+
+.player{
+        margin: 0 auto;
+    }
+
+.player-image img{
+    width: 100%;
+    height: 256px;
+}
+
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin: 10px 0px;
+}
+
+.player-info{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400px;
+    color: #6C6C6C;
+}
+/* Players section ends here */
+
+/* Latest news starts here */
+.latest-newses{
+    margin-top: 70px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section-title{
+    font-size: 40px;
+}
+
+.latest-news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+.news{
+    width: 300px;
+    height: 400px;
+}
+
+.news h1{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    padding: 0px;
+}
+/* Latest news ends here */
+
+/* Special Feature starts here */
+
+.feature-title{
+    font-size: 40px;
+}
+/* Special Feature ends here */
+/* Main section ends here */
+
+/* Footer section starts here */
+footer{
+    width: 768px;
+}
+
+.footer-logo{
+    padding-top: 54.57px;
+    margin-left: -20px; 
+    margin-bottom: 50.45px;
+    text-align: center;
+}
+.footer-logo img{
+    width: 200px;
+    height: 70px;
+}
+
+.footer-icons{
+    margin-left: 20px;
+}
+/* Footer section ends here */
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .full-container{
-        width: 100%;
-    }
+.full-container{
+    width: 100%;
+}
 
 /* Header section starts here */
 .banner{
@@ -336,79 +481,79 @@ main{
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 24px;
     grid-column-gap: 0px;
-    margin: 0 auto;
+    padding: 0px;
     padding-top: 47px;
-    }
+}
 
 .player{
         margin: 0 auto;
-    }
+}
 /* Players section ends here */
 
 /* Latest news starts here */
-    .latest-newses{
-        margin-top: 70px;
-        background-color: black;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-    }
+.latest-newses{
+    margin-top: 70px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
 
-    .section-title{
-        font-size: 30px;
-    }
+.section-title{
+    font-size: 30px;
+}
 
-    .latest-news{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 24px;
-    }
+.latest-news{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 24px;
+}
 
-    .news{
-        width: 300px;
-        height: 400px;
-    }
+.news{
+    width: 300px;
+    height: 400px;
+}
 
-    .news h1{
-        font-size: 20px;
-        position: absolute;
-        top: 320px;
-        padding: 0px;
-    }
-    /* Latest news ends here */
+.news h1{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    padding: 0px;
+}
+/* Latest news ends here */
 
-    /* Special Feature starts here */
-    .special-feature{
-        width: 100%;
-        height: 200px;
-    }
+/* Special Feature starts here */
+.special-feature{
+    width: 100%;
+    height: 200px;
+}
 
-    .special-feature h1{
-        font-size: 20px;
-    }
+.special-feature h1{
+    font-size: 20px;
+}
 
-    .special-feature p{
-        font-size: 10px;
-        color: white;
-    }
+.special-feature p{
+    font-size: 10px;
+    color: white;
+}
 
-    .special-feature a{
-        padding: 7px 10px;
-        font-size: 10px;
-    }
+.special-feature a{
+    padding: 7px 10px;
+    font-size: 10px;
+}
 
-    .special-feature a:hover{
-        padding: 10px 13px;
-    }
+.special-feature a:hover{
+    padding: 10px 13px;
+}
 
-    .feature-title{
-        font-size: 20px;
-    }
-    /* Special Feature ends here */
+.feature-title{
+   font-size: 20px;
+}
+/* Special Feature ends here */
 /* Main section ends here */
 
 /* Footer section starts here */
@@ -432,3 +577,5 @@ footer{
 }
 /* Footer section ends here */
 }
+
+
