@@ -287,6 +287,14 @@ footer{
 /* Small devices (portrait tablets and large phones, 768px and down) */
 @media only screen and (max-width: 768px) {
 
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    margin: 0;
+}
+
 .full-container{
     width: 100%;
 }
@@ -431,6 +439,14 @@ footer{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    margin: 0;
+}
+
 .full-container{
     width: 100%;
 }
